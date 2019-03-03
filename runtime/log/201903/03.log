@@ -1,0 +1,186 @@
+[ 2019-03-03T20:47:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.673000s][吞吐率：1.49req/s] [内存消耗：2,194.04kb] [文件加载：55]
+[ info ] [ LANG ] D:\ThinkPhP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\ThinkPhP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2019-03-03T20:47:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,194.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\ThinkPhP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\ThinkPhP\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2019-03-03T20:49:31+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.250000s][吞吐率：4.00req/s] [内存消耗：2,324.76kb] [文件加载：59]
+[ info ] [ LANG ] D:\ThinkPhP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\ThinkPhP\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_article` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` ORDER BY click desc LIMIT 4 [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_cate` [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_cate` ORDER BY id Asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_tags` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_tags` ORDER BY id Asc [ RunTime:0.001000s ]
+[ error ] [0]不支持: redis[D:\ThinkPhP\thinkphp\library\think\cache\driver\Redis.php:44]
+
+---------------------------------------------------------------
+[ 2019-03-03T20:51:56+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.198000s][吞吐率：5.05req/s] [内存消耗：2,529.10kb] [文件加载：61]
+[ info ] [ LANG ] D:\ThinkPhP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\ThinkPhP\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\ThinkPhP\public/../application/index\view\index\index.html [ array (
+  0 => 'clicker',
+  1 => 'tuijian',
+  2 => 'tag',
+  3 => 'category',
+  4 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_cate` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_cate` ORDER BY id Asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_tags` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_tags` ORDER BY id Asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` ORDER BY click Asc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-03-03T21:05:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp.com/ [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：2,517.49kb] [文件加载：61]
+[ info ] [ LANG ] D:\news\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\news\application\index\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\news\public/../application/index\view\index\index.html [ array (
+  0 => 'clicker',
+  1 => 'tuijian',
+  2 => 'tag',
+  3 => 'category',
+  4 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_article` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_cate` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_cate` ORDER BY id Asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fx_tags` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `fx_tags` ORDER BY id Asc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
